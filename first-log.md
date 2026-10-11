@@ -1,8 +1,8 @@
 # Learning log 01 — Xác định MVP
 
-> Khung để người học tự điền. Các dòng hướng dẫn chưa phải ghi nhận trải nghiệm. Hãy thay hướng dẫn bằng lời của bạn; chỉ giữ những việc bạn thực sự đã làm.
 
-Ngày viết: [tự điền ngày bạn viết log]
+
+Ngày viết: [11/10/2026]
 
 ## 1. Bối cảnh và mục tiêu của tôi
 
