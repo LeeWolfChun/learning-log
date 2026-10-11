@@ -2,7 +2,7 @@
 
 
 
-Ngày viết: [11/10/2026]
+Ngày viết: 11/10/2026
 
 ## 1. Bối cảnh và mục tiêu của tôi
 
