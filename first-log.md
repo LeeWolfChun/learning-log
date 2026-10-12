@@ -14,12 +14,12 @@ Mình có viết node về những dữ liệu cần có cho 3 đối tượng n
 
 ## 3. Một điểm tôi hiểu rõ hơn
 
-việc khôi phục những đăng ký hủy bởi ban tổ chức và đăgn kí hủy bởi sinh viên. ex: nếu ban tổ chức hủy sự kiện thì tất cả đăng ký có hiệu lực sẽ bị đánh dấu hủy và khi khôi phục những đăng ký trong database của sự kiện thì vấn đề xảy ra là những đăng kí hủy bởi sinh viên cũng sẽ được khôi phục -> số chỗ không đủ -> bug. đấy là lý do cần đặt rõ quy tắc gán nhãn hủy do sinh viên và hủy do ban tổ chức tránh tình trạng được nên ra trong ví dụ.
+việc khôi phục những đăng ký hủy bởi ban tổ chức và đăgn kí hủy bởi sinh viên. ex: nếu ban tổ chức hủy sự kiện thì tất cả đăng ký có hiệu lực sẽ bị đánh dấu hủy và khi khôi phục những đăng ký trong database của sự kiện thì vấn đề xảy ra là những đăng kí hủy bởi sinh viên cũng sẽ được khôi phục -> sai nghiệp vụ ngay cả khi vẫn còn chỗ -> bug. đấy là lý do cần đặt rõ quy tắc gán nhãn hủy do sinh viên và hủy do ban tổ chức tránh tình trạng được nên ra trong ví dụ.
 
 ## 4. Quyết định của tôi và lý do
 
 Q-01: hiển thị và thời điểm mở đăng ký 
-- chi tiếtL: thêm vào database event - registrationStart (thời gian mở đăng ký) nó dẫn đến danh sách khi GET event sẽ gồm: sự kiện chưa mở đăng kí. đang mở đăng ký , hết hạn đăng ký sẽ hiển thị "đã đóng đăng ký".
+- chi tiết: quyết định bổ sung - registrationStart (thời gian mở đăng ký) vào mô hình dữ liệu dự kiến. Nó dẫn đến danh sách khi GET event sẽ gồm: sự kiện chưa mở đăng kí. đang mở đăng ký , hết hạn đăng ký sẽ hiển thị "đã đóng đăng ký".
 - Lý do: điều này sẽ giúp sinh viên dễ tìm hiểu về các sự kiện sắp diễn ra và camp đăng kí vì nếu chỉ hiển thi sự kiện đẫ mở đăng kí thì lúc sinh viên đăng ký có thể đã hết chỗ.
 
 ## 5. Điều còn chưa rõ
